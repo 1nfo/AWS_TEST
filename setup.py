@@ -3,9 +3,9 @@ import os
 envName = "jac-env"
 envPath = os.getcwd()+"/"+envName
 
-JAC_UI_REPO = "git@github.pydt.lan:szhao/JAC_UI.git"
+JAC_UI_REPO = "https://github.pydt.lan/szhao/JAC_UI.git"
 
-JmeterAwsConf_REPO = "git@github.pydt.lan:szhao/JmeterAwsConf.git"
+JmeterAwsConf_REPO = "https://github.pydt.lan/szhao/JmeterAwsConf.git"
 
 os.system("python3 -m virtualenv %s"%envName)
 a ='''
