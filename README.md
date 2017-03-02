@@ -21,7 +21,7 @@
 	
 4. clone remote repo
 
-		git clone git@github.com:1nfo/AWS_TEST.git
+		git clone https://github.pydt.lan/szhao/AWS_TEST.git
 		
 5. setup
 
