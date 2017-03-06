@@ -1,6 +1,14 @@
 # Instruction for deploy JmeterAwsConf and JAC_UI under MacOS
 
-1. brew if not installed
+		
+6. First make you have correct credential files in the right directory (which is $HOME directory) of your system
+
+	They are:
+	1. $HOME/Jmeter\_test\_key\_pair.pem, 
+	2. $HOME/.aws/config, 
+	3. $HOME/.aws/credentials
+
+1. install brew if it is not
 
 		/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		
@@ -27,17 +35,7 @@
 
 		cd AWS_TEST
 		python3 setup.py
-		
-6. config awscli  
 
-	This step requires:
-	1. ~/Jmeter\_test\_key\_pair.pem, 
-	2. ~/.aws/config, 
-	3. ~/.aws/credentials
-
-6. run flask app
-
-		python main.py
 	
 		
 	
